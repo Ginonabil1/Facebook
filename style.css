@@ -1,0 +1,175 @@
+body {
+    background-color: #f0f2f5;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+.text {
+    padding: 0px 0px 100px 100px;
+    margin-right: 0px;
+    margin-left: 70px;
+}
+.text h2 {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.text p {
+    font-size:25px;
+    width: 390px;
+    margin-top: 0px;
+}
+.form {
+    margin-left: 0px;
+    margin-right: 120px;
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding: 20px 0 28px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,10%);
+    height: 370px;
+}
+.form input {
+    width: 88%;
+    border: 1px solid rgba(102, 98, 98, 0.192);
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+}
+.form input:focus {
+    outline: 1px solid #1877f2;
+}
+.form .login input {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #1877f2;
+    width: 94%;
+    margin-bottom: 12px;
+}
+.form .login input:hover {
+    background-color: #2871d1;
+}
+.form a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+.form a:hover {
+    border-bottom: 1px solid #1877f2;
+}
+.form hr {
+    margin-top: 20px;
+    width: 88%;
+}
+.form .signup input {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #42b72a;
+    width: 180px;
+    margin-top: 10px;
+}
+.signup input:hover {
+    background-color: #3d972b;
+}
+.signup input:focus {
+    outline: none;
+}
+#error {
+    display:none;
+    text-align: center;
+    background-color: darkred;
+    color: #fff;
+    padding: 4px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.newacc {
+    width: 450px;
+    height: 500px;
+    display: none;
+    position: relative;
+    bottom: 500px;
+    right: 400px;
+    left: 400px;
+    background-color: #fff;
+    padding:0px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,10%);
+
+}
+.newacc .c1 {
+    display: flex;
+    justify-content: space-between;
+}
+.newacc .c1 a {
+    font-size: 20px;
+    padding: 10px;
+    color: dimgrey;
+    text-decoration: none;
+}
+.newacc .c1 h2 {
+    padding-top: 5px;
+    font-size: 30px;
+}
+.newacc .fn {
+    display: flex;
+    justify-content: space-around;
+
+}
+.newacc input {
+        width: 88%;
+        border: 1px solid rgba(102, 98, 98, 0.192);
+        margin-bottom: 10px;
+        margin-right: 4px;
+        padding: 12px;
+        border-radius: 6px;
+}
+.newacc .date {
+    margin-top: 10px;
+}
+.newacc .gender {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.gender .male {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 5px 10px;
+    border: 1px solid rgba(102, 98, 98, 0.192);
+}
+.gender .female {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 5px 10px;
+    border: 1px solid rgba(102, 98, 98, 0.192);
+}
+.newacc .signup_botton {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newacc .signup_botton input{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #42b72a;
+    width: 180px;
+    margin-top: 10px;
+}
+.signup_botton input:hover {
+    background-color: #3d972b;
+}

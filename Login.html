@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yv/r/B8BxsscfVBr.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main" id="sec">
+        <div class="text">
+            <h2>facebook</h2>
+            <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="form">
+            <form onsubmit="return form_validation();" action="fb.html" method="get" novalidate> 
+                <div id="error"></div> 
+                <div>
+                    <input type="email" id="email" placeholder="Email address">
+                    <input type="tel" id="tel" placeholder="phone number">
+                    <input type="password" id="pass" placeholder="Password">
+                </div>
+                <div class="login" >
+                    <input type="submit" value="Log In">
+                </div>
+                <div>
+                    <a href="#">Forgotten password?</a>
+                    <hr>
+                </div>
+                <div class="signup">
+                    <input type="button" id="create_acc" onclick="open_signup()" value="Create New Account">
+                </div>
+            </form>
+        </div>
+    </section>
+    <div id="mynewacc" class="newacc">
+        <form>
+            <div class="c1">
+                <h2>Sign up</h2>
+                <a href="#" onclick="close_signup()">X</a>
+            </div>
+            <div class="fn">
+                <input type="text" id="Fn" placeholder="First name">
+                <input type="text" id="surname" placeholder="Surname">
+            </div>
+            <div>
+                <input type="email" id="email2" placeholder="email address">
+            </div>
+            <div>
+                <input type="password" id="newpass" placeholder="New Password">
+            </div>
+            <div class="date">
+                <label>Date of birth</label>
+                <input type="date">
+            </div>
+            <div class="gender">
+                <label>Gender:</label>
+                <div class="male">
+                    <label>Male</label>
+                    <input type="radio" name="gender" value="male">
+                </div>
+                <div class="female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="Female">
+                </div>
+            </div>
+            <div class="signup_botton">
+                <input type="submit" value="Sign up">
+            </div>
+        </form>
+    </div>
+        
+        
+    <script src="main.js"></script>
+</body>
+</html>
